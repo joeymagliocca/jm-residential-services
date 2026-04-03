@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import SEO from "../components/SEO";
 import {
   MapPin,
   Phone,
@@ -65,6 +66,11 @@ export default function Contact() {
 
   return (
     <>
+      <SEO
+        path="/contact"
+        title="Contact Us — Free Estimates in Loudoun County"
+        description="Get a free estimate from JM Residential Services. Call (571) 578-1218 or text us for landscaping, power washing, driveway sealing & gutter cleaning in Loudoun County, VA."
+      />
       {/* Page Hero */}
       <section className="relative py-40 overflow-hidden">
         <img

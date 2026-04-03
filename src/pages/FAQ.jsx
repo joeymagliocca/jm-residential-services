@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
+import SEO from "../components/SEO";
 import {
   ChevronDown,
   ArrowRight,
@@ -253,6 +254,11 @@ export default function FAQ() {
 
   return (
     <>
+      <SEO
+        path="/faq"
+        title="FAQ — Landscaping & Power Washing Questions Answered"
+        description="Answers to common questions about landscaping, power washing, driveway sealing & gutter cleaning in Loudoun County, VA. Pricing, scheduling, service areas & more."
+      />
       {/* Page Hero */}
       <section className="relative py-40 overflow-hidden">
         <img

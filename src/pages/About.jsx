@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import SEO from "../components/SEO";
 import {
   ArrowRight,
   Heart,
@@ -96,6 +97,11 @@ const awards = [
 export default function About() {
   return (
     <>
+      <SEO
+        path="/about"
+        title="About Us — Locally Owned in Loudoun County"
+        description="JM Residential Services is a locally owned landscaping and exterior cleaning company serving Ashburn, Leesburg & Loudoun County, VA. Licensed, insured & 5-star rated."
+      />
       {/* Page Hero */}
       <section className="relative py-40 overflow-hidden">
         <img

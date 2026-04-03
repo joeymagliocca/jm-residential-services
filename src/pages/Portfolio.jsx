@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import SEO from "../components/SEO";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight, X, ChevronLeft, ChevronRight, MapPin } from "lucide-react";
 
@@ -100,6 +101,11 @@ export default function Portfolio() {
 
   return (
     <>
+      <SEO
+        path="/portfolio"
+        title="Our Work — Before & After Photos"
+        description="See real before and after photos of landscaping, power washing, driveway sealing & gutter cleaning projects in Loudoun County, VA by JM Residential Services."
+      />
       {/* Page Hero */}
       <section className="relative py-40 overflow-hidden">
         <img

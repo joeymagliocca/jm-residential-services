@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import SEO from "../components/SEO";
 import {
   ChevronDown,
   ArrowRight,
@@ -144,6 +145,11 @@ const whyUs = [
 export default function Home() {
   return (
     <>
+      <SEO
+        path="/"
+        title="Landscaping & Power Washing in Loudoun County, VA"
+        description="Professional landscaping, power washing, driveway sealing & gutter cleaning in Ashburn, Leesburg & Loudoun County, VA. Upfront pricing. Free estimates. Call (571) 578-1218."
+      />
       {/* Hero */}
       <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden">
         <img

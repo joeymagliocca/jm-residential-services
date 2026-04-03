@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://joeymagliocca.github.io/jm-residential-services/sitemap.xml

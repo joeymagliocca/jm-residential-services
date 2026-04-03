@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import SEO from "../components/SEO";
 import {
   ArrowRight,
   Check,
@@ -102,6 +103,11 @@ const steps = [
 export default function Services() {
   return (
     <>
+      <SEO
+        path="/services"
+        title="Landscaping, Power Washing & Outdoor Services"
+        description="Full-service landscaping, power washing, driveway sealing & gutter cleaning in Loudoun County, VA. See our services & upfront pricing. Free estimates."
+      />
       {/* Page Hero */}
       <section className="relative py-40 overflow-hidden">
         <img
